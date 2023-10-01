@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    padding: 25px 0 25px 0;
+}
+.header-menu {
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+}
+.menu-item-link {
+    color: var(--base-grey-50, #939699);
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.button{
+    display: flex;
+    align-items: center;
+    border: none;
+    color: var(--base-white, #FFF);
+    border-radius: 20px;
+    background: var(--blue-blue-75, #4592FF);
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.header-button .button-img {
+    margin-right: 10px;
+}
+.slide {
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+.slide-1 {
+    background: #B4D1E0 url('../img/slide-one.png') no-repeat top right 23%;
+}
+.label {
+    color: var(--base-white, #FFF);
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 5px 12px;
+    border-radius: 3px;
+    background: var(--green-green-75, #3DC47E);
+}
+.slide-title {
+    color: var(--base-grey-100, #262D33);
+    max-width: 458px;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 70px; 
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+.slide-description {
+    color: var(--base-grey-85, #4B5157);
+    max-width: 335px;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.button-price-text {
+    margin-right: 10px;
+}
+.slide-button {
+    border: none;
+    background-color: transparent;
+}
+.slider {
+    position: relative;
+}
+.slider-nav {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.card {
+    min-height: 370px;
+    border-radius: 10px;
+}
+.card-1 {
+    background: #E3E2E3 url("../img/card-1.jpg") no-repeat top right;
+    margin-right: 30px;
+}
+.card-2 {
+    background: #E3E2E3 url("../img/card-2.jpg") no-repeat top right;
+}
+.card-3 {
+    background: #CCD5E6 url("../img/card-3.png") no-repeat top right 10%;
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    padding-left: 46px;
+}
+.card-4 {
+    background: #FF4F52 url("../img/card-4.png") no-repeat top right;
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+}
+.card-1, .card-2 {
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    padding-left: 46px;
+}
+.card-title {
+    max-width: 222px;
+    color: var(--base-grey-100, #262D33);
+    font-family: Roboto Slab;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.card-description {
+    max-width: 175px;
+    color: var(--base-grey-85, #4B5157);
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+}
+.card-title.light, .card-description.light {
+    color: var(--base-white, #FFF);
+}
+.card-title.large {
+    margin-top: 35px;
+    max-width: 420px;
+    font-size: 40px;
+    line-height: 50px; 
+    margin-bottom: 20px;
+}
+.card-description.large {
+    max-width: 320px;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+.price-text {
+    color: var(--base-white, #FFF);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 20px;
+}
+.card-4 .card-title {
+    max-width: 210px;
+}
