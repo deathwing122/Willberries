@@ -162,3 +162,118 @@
 .card-4 .card-title {
     max-width: 210px;
 }
+.section-title {
+    color: var(--base-grey-100, #262D33);
+    font-family: Roboto Slab;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0;
+}
+.more {
+    color: var(--base-grey-100, #262D33);
+    text-align: right;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 20px; 
+    text-decoration: none;
+}
+.goods-card {
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 35px;   
+}
+.goods-card .label {
+    position: absolute;
+    left: 18px;
+    top: 18px;
+}
+.goods-card-title {
+    color: var(--base-grey-100, #262D33);
+    font-family: Roboto Slab;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.goods-card-description {
+    color: var(--base-grey-85, #4B5157);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.goods-card-price {
+    color: var(--base-grey-100, #262D33);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.goods-card:not(:last-child) {
+    margin-right: 35px;
+}
+.footer {
+    padding: 25px 0 25px 0;
+    background-color: #8F79D4;
+}
+.footer-menu {
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+}
+.footer-item-link {
+    color: var(--base-white, #FFF);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 20px;
+    text-decoration: none
+}
+.footer-menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+.social-text {
+    color: var(--purple-purple-25, #E7D9FF);
+    text-align: right;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 25px;
+}
+.social-link:not(:last-child) {
+    margin-right: 15px;
+}
+.footer-text {
+    color: var(--purple-purple-25, #E7D9FF);
+    text-align: right;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.line {
+    background: var(--purple-purple-50, #D8BFFF);
+    height: 1px;
+    width: 100%;
+    margin-top: 44px;
+    margin-bottom: 36px;
+}
+.payments-img:not(:last-child) {
+    margin-right: 25px;
+}
+.top-link {
+    text-decoration: none;
+    color: var(--base-white, #FFF);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 20px;
+}
+.top-link-text {
+    margin-right: 15px;
+}
