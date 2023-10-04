@@ -41,7 +41,7 @@
     padding-bottom: 110px;
 }
 .slide-1 {
-    background: #B4D1E0 url('../img/slide-one.png') no-repeat top right 23%;
+    background: #B4D1E0 url('../img/slide-one.png') no-repeat top right 27%;
 }
 .label {
     color: var(--base-white, #FFF);
@@ -56,7 +56,7 @@
 }
 .slide-title {
     color: var(--base-grey-100, #262D33);
-    max-width: 458px;
+    max-width: 413px;
     font-family: Roboto Slab;
     font-size: 55px;
     font-weight: 700;
@@ -88,6 +88,7 @@
     width: 100%;
     top: 50%;
     transform: translateY(-50%);
+    z-index: 9;
 }
 .card {
     min-height: 370px;
@@ -276,4 +277,42 @@
 }
 .top-link-text {
     margin-right: 15px;
+}
+.swiper {
+    width: 100%;
+}
+@media (max-width: 1200px) {
+    .slide-1 {
+        background-size: cover;
+    }
+    .card {
+        padding: 30px;
+    }
+    .card-3 {
+        background-size: cover;
+    }
+}
+@media (max-width: 992px) {
+    .slider-nav {
+        display: none;
+    }
+    .slide-title {
+        font-size: 39px;
+    }
+    .card-description.large {
+        margin-bottom: 20px;
+    }
+    .card-1 {
+        margin-right: 0;
+        margin-bottom: 20px;
+        background-position: left top;
+    }
+    .card-4 {
+        background-position: right top;
+    }
+}
+@media (max-width: 568px) {
+    .payments-img:not(:last-child) {
+        margin-right: 15px;
+    }
 }
